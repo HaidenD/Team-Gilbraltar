@@ -7,7 +7,7 @@ Randy && Haiden
 ---
 
 # What is React?
-
+<img src='images/react-logo.png' width='10%' class='spin'/>
 * React is component based JavaScript UI Framework.
 * React takes a composition approach to create reusable UI components.
 * A component has an idea of a state or prop. A state represents a components data, primitive values, and react elements/functions.
@@ -40,6 +40,8 @@ Randy && Haiden
 
 # What is Redux?
 
+<img src='images/redux-logo.png' width='8%'/>
+
 #### Redux is a predictable state container for JavaScript apps.
 
 - Why would we use redux?
@@ -57,6 +59,14 @@ Randy && Haiden
 * Reducers decides what and how a specific Action transforms the entire applications state.
 
 ---
+### React-Redux Cycle
+
+<div>
+    <img src='images/react-redux-cycle.png' width='70%'/>
+</div>
+
+
+---
 
 #### Why do we think its cool?
 
@@ -66,3 +76,4 @@ Randy && Haiden
     * We can now make better and more complex choices in our application.
 
 ---
+
