@@ -1,20 +1,24 @@
 # Team Gilbraltar
 #### Presents
-# React!
+<div>
+<span>
+<img src='images/react-logo.png' width='20%' class='spin image'/>
+<img src='images/redux-logo.png' width='20%' class='counter-spin image'/>
+</span>
+</div>
 #### Created By:
 Randy && Haiden
 
 ---
 
 # What is React?
-
 * React is component based JavaScript UI Framework.
 * React takes a composition approach to create reusable UI components.
 * A component has an idea of a state or prop. A state represents a components data, primitive values, and react elements/functions.
 
 ---
 
-### What about Inheritance??
+### What about Inheritance?
 >At Facebook, we use React in thousands of components, and we haven’t found any use cases where we would recommend creating component inheritance hierarchies.
 
 ---
@@ -33,8 +37,6 @@ Randy && Haiden
 
 # JSX
 * Html Literals
-
-
 
 ---
 
@@ -57,6 +59,14 @@ Randy && Haiden
 * Reducers decides what and how a specific Action transforms the entire applications state.
 
 ---
+### React-Redux Cycle
+
+<div>
+    <img src='images/react-redux-cycle.png' width='70%'/>
+</div>
+
+
+---
 
 #### Why do we think its cool?
 
@@ -66,3 +76,4 @@ Randy && Haiden
     * We can now make better and more complex choices in our application.
 
 ---
+
