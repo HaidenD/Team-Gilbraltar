@@ -220,7 +220,7 @@ export default function (state={}, action) {
 ## Container 
 ```javascript
 import ComponentA from './componentA';
-import * as ComponentActions from './component-actions.js';
+import * as ComponentActions from './componentA-actions.js';
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 
