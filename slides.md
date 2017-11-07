@@ -1,4 +1,4 @@
-# Team Gilbraltar
+# Team Gibraltar
 #### Presents
 <div>
 <span>
@@ -24,19 +24,28 @@ Randy && Haiden
 ---
 
 #### What do we love about it?
- ES6 SYNTAX
+
+<!--v-->
+
+ ## ES6 SYNTAX
+
 * Template Strings
- ```
-    `Hello ${user.name}`
- ```    
+```
+ `Hello ${user.name}`
+```
 * Fat Arrow Functions
- ```
-    => () {return true}
- ``` 
-* Literals: Let and Const
+```
+  => () {return true}
+``` 
+* Destructuring Assignment
+```
+ {name, role} = this.props.user;
+```
+
+<!--v-->
 
 # JSX
-* Html Literals
+* HTML/XML Literals
 
 ---
 
@@ -64,7 +73,6 @@ Randy && Haiden
 <div>
     <img src='images/react-redux-cycle.png' width='70%'/>
 </div>
-
 
 ---
 
