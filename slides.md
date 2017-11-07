@@ -76,4 +76,108 @@ Randy && Haiden
     * We can now make better and more complex choices in our application.
 
 ---
+## File Structures
 
+* Focus on two basic file structures
+    * Modular Components
+    * Redux Organization
+
+---
+
+## File Structure - Base
+<pre class='no-borders tree'>
+React-Redux Project
+│   package.json    | Records project info + project dependencies
+│   README.md       | Documentation
+│                   |
+├───node_modules    | Stores all dependency folders
+│
+├───src
+│   │   index.html
+│   │   index.js
+│   │   store.js
+.
+.
+.
+</pre>
+
+<!--v-->
+
+## File Structure - Modular
+<pre class='no-borders tree'>
+
+.  src
+.   │
+.   │
+│   ├───styles 
+│   │
+│   └───Components
+│       ├───app
+│       │
+│       ├───componentA
+│       .           _componentA 
+│       .           componentA-actions
+│       .           componentA-reducer
+│                   componentA
+├───static
+│   └───images
+│
+└───webpack
+</pre>
+
+<!--v-->
+
+## File Structure - Redux
+<pre class='no-borders'>
+.  src
+.   │
+.   ├───styles
+│   │
+│   ├───actions
+│   │
+│   ├───Reducers
+│   │
+│   └───components
+│       ├───app
+│       │
+│       └───componentA
+│       .           _componentA
+│       .           componentA
+│       .
+│
+├───static
+│   └───images
+│
+└───webpack
+</pre>
+
+---
+
+<!-- Was thinking it would be cool to show how many React projects we have -->
+## Projects that use React + Redux
+* Portal
+* DIET
+* Tank Vapors
+* Other React Projects
+    * Beau
+    * John
+    * Juan
+    * Nick
+    * Patrick
+    * Laura
+    * Heather?
+    * Trevor?
+    * Haiden
+    * Randy
+* Grow
+
+---
+
+## Resources
+* [npmjs](www.npmjs.com)
+* [React](github.com/facebook/react)
+* [Redux](github.com/buckyroberts/React-Redux-Boilerplate)
+
+---
+
+# Questions?
