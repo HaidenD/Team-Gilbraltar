@@ -219,8 +219,8 @@ export default function (state={}, action) {
 
 ## Container 
 ```javascript
-import Component from './componentA';
-import * as ComponentActions from './componentA-actions.js';
+import ComponentA from './componentA';
+import * as ComponentActions from './component-actions.js';
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 
