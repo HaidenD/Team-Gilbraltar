@@ -100,7 +100,9 @@ React-Redux Project
 .
 .
 </pre>
+
 <!--v-->
+
 ## File Structure - Modular
 <pre class='no-borders tree'>
 
@@ -122,7 +124,9 @@ React-Redux Project
 │
 └───webpack
 </pre>
+
 <!--v-->
+
 ## File Structure - Redux
 <pre class='no-borders'>
 .  src
@@ -146,3 +150,34 @@ React-Redux Project
 │
 └───webpack
 </pre>
+
+---
+
+<!-- Was thinking it would be cool to show how many React projects we have -->
+## Projects that use React + Redux
+* Portal
+* DIET
+* Tank Vapors
+* Other React Projects
+    * Beau
+    * John
+    * Juan
+    * Nick
+    * Patrick
+    * Laura
+    * Heather?
+    * Trevor?
+    * Haiden
+    * Randy
+* Grow
+
+---
+
+## Resources
+* [npmjs](www.npmjs.com)
+* [React](github.com/facebook/react)
+* [Redux](github.com/buckyroberts/React-Redux-Boilerplate)
+
+---
+
+# Questions?
