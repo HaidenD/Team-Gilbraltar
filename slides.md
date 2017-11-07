@@ -167,7 +167,7 @@ React-Redux Project
 ```javascript
 import React, { Component } from 'react'
 
-export default class Component extends Component {
+export default class ComponentA extends Component {
 
   constructor(props, context) {
     super(props);
@@ -208,7 +208,7 @@ export default function (state={}, action) {
   switch (action.type) {
     case 'GET_COMPONENT_DATA':
        /*Do your mutex here!*/
-       return {...state, your_mutex};
+      return {...state, your_mutex};
     default:
       return {...stateCopy};
   }
@@ -239,6 +239,40 @@ function mapDispatchToProps(dispatch) {
 export default connect(mapStateToProps, mapDispatchToProps)(Component);
 
 ```
+
+<!--v-->
+
+## Store
+```javascript
+import {applyMiddleware, createStore} from 'redux';
+
+import rootSaga from '../app/app-reducer';
+
+export default createStore(reducer);
+
+```
+
+<!--v-->
+
+## index.js
+```javascript
+
+import React, { Component } from 'react';
+import ReactDOM from "react-dom";
+import {Provider} from 'react-redux';
+import store from './store';
+
+import App from './app/_app';
+
+ReactDOM.render(
+    <Provider store={store}>
+        <App />
+    </Provider>,
+    document.getElementById('app')
+);
+
+```
+
 ---
 
 <!-- Was thinking it would be cool to show how many React projects we have -->
