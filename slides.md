@@ -219,7 +219,7 @@ export default function (state={}, action) {
 
 ## Container 
 ```javascript
-import Component from './componentA';
+import ComponentA from './componentA';
 import * as ComponentActions from './componentA-actions.js';
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
@@ -271,6 +271,30 @@ ReactDOM.render(
     document.getElementById('app')
 );
 
+```
+<!--v-->
+
+## app.js
+```javascript
+
+import React, { Component } from 'react';
+import ReactDOM from "react-dom";
+
+import ComponentA from '../Components/_componentA';
+
+export default class App extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state= { };
+  }
+
+  render() {
+    return (
+      <ComponentA />
+    )
+  }
+}
 ```
 
 ---
