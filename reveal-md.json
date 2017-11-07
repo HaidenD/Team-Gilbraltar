@@ -1,5 +1,6 @@
 {
     "theme": "",
     "watch": true,
-    "css": "css/font-awesome.min.css"
+    "css": "css/font-awesome.min.css",
+    "verticalSeparator": "<!--v-->"
 }
